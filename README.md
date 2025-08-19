@@ -1,18 +1,18 @@
 
-Keras ile Kalp Hastalığı Sınıflandırma Projesi
+# Keras ile Kalp Hastalığı Sınıflandırma Projesi
 
 
-🎯 Proje Amacı
+## 🎯 Proje Amacı
 Bu proje, açık kaynak bir veri seti üzerinde, Derin Öğrenme (Deep Learning) kullanarak kalp hastalığı varlığını tahmin eden bir model geliştirmeyi amaçlamaktadır. Proje, veri ön işleme, sinir ağı modelleme ve model performansını kapsamlı bir şekilde değerlendirme adımlarını içermektedir.
 
 
 
-📊 Veri Seti
+## 📊 Veri Seti
 Bu proje için kullanılan veri seti, Kaggle'da bulunan halka açık Heart Disease Data Set veri setidir.
 
 
 
-🛠️ Kullanılan Teknolojiler
+## 🛠️ Kullanılan Teknolojiler
 Python
 
 TensorFlow / Keras: Derin öğrenme modeli için
@@ -25,12 +25,12 @@ Matplotlib / Seaborn: Veri görselleştirme ve grafikler için
 
 
 
-🧠 Model Mimarisi
+## 🧠 Model Mimarisi
 Model, bir dizi yoğun (Dense) ve düşürme (Dropout) katmanından oluşan sıralı (Sequential) bir sinir ağıdır. Aşırı uyum (overfitting) sorununu önlemek için Dropout katmanları eklenmiştir.
 
 
 
-📈 Model Performansı
+## 📈 Model Performansı
 Model, eğitim süreci sonunda ve test verisi üzerinde mükemmel bir performans sergilemiştir.
 
 Test Verisi Doğruluğu: %82.07
